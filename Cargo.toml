@@ -14,4 +14,6 @@ path = "src/server.rs"
 
 [dependencies]
 anyhow = "1.0.61"
+borsh = "0.9.3"
+text_io = "0.1.12"
 tokio = { version = "1.20.1", features = ["net", "macros", "rt", "rt-multi-thread"] }
